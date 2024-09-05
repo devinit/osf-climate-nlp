@@ -64,22 +64,26 @@ def main():
                 reporting_org_sector_codes = multi_index(activity['sector_code'], reporting_org_v2_indices)
                 reporting_org_sector_percentages = multi_index(activity['sector_percentage'], reporting_org_v2_indices)
                 for wb_climate_sector_code in list(wb_climate_sector_map.keys()):
-                    split_dict = results_dict.copy()
-                    split_dict['wb_sector_name'] = wb_climate_sector_map[wb_climate_sector_code]
+                    wb_sector_name = wb_climate_sector_map[wb_climate_sector_code]
                     if wb_climate_sector_code not in reporting_org_sector_codes:
                         wb_sector_percentage = 0
                     else:
                         wb_sector_index = reporting_org_sector_codes.index(wb_climate_sector_code)
                         wb_sector_percentage = float(reporting_org_sector_percentages[wb_sector_index]) / 100
                     wb_sector_percentage = min(wb_sector_percentage, 1)
-                    split_dict['wb_sector_percentage'] = wb_sector_percentage
-                    results.append(split_dict)
+                    results_dict[wb_sector_name] = wb_sector_percentage
+                results.append(results_dict)
                     
             if bar.value + len_results <= bar.max_value:
                 bar.update(bar.value + len_results)
     
     # Collate into Pandas dataframe
     df = pd.DataFrame.from_records(results)
+
+    # De-duplicate
+    print(df.shape)
+    df = df.drop_duplicates(subset=['text'])
+    print(df.shape)
 
     # Write to disk
     df.to_csv(
