@@ -45,10 +45,10 @@ model = AutoModelForSequenceClassification.from_pretrained(
 
 training_args = TrainingArguments(
     'climate-percentage-regression',
-    learning_rate=1e-5,
+    learning_rate=8e-7,
     per_device_train_batch_size=24,
     per_device_eval_batch_size=24,
-    num_train_epochs=10,
+    num_train_epochs=20,
     weight_decay=0.01,
     eval_strategy='epoch',
     save_strategy='epoch',
