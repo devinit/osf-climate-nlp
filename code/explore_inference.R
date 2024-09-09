@@ -18,3 +18,6 @@ mse(dat$`Climate change`, dat$pred_cap)
 plot(`Climate change`~pred_cap, data=dat)
 
 summary(lm(`Climate change`~pred_cap, data=dat))
+
+zero_labels = subset(dat, `Climate change` == 0)
+hundred_labels = subset(dat, `Climate change` == 1)
