@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 
 climate-percentage-regression
+climate-dual-percentage-regression
+.Rhistory

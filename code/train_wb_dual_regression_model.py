@@ -23,8 +23,9 @@ dataset = dataset.remove_columns(
 )
 
 def preprocess_function(example):
+    labels = [example['Climate adaptation'], example['Climate mitigation']]
     example = tokenizer(example['text'], truncation=True)
-    example['labels'] = (example['Climate adaptation'], example['Climate mitigation'])
+    example['labels'] = labels
     return example
 
 dataset = dataset.map(preprocess_function, remove_columns=['text', 'Climate adaptation', 'Climate mitigation'])
