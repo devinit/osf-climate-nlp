@@ -1,8 +1,9 @@
 from huggingface_hub import login
-from datasets import load_dataset
+from datasets import Dataset
 from dotenv import load_dotenv
 import os
 from collections import Counter
+import pandas as pd
 
 
 def bin_labels(example):
@@ -11,7 +12,13 @@ def bin_labels(example):
 
 
 def main():
-    dataset = load_dataset("csv", data_files="./input/world_bank_climate_percentages.csv", split="train")
+    df = pd.read_csv("./input/wb_api_climate_percentages.csv")
+    df['text'] = (df['project_name'] + ' ' + df['pdo'] + ' ' + df['project_abstract']).str.strip()
+    # De-duplicate
+    print(df.shape)
+    df = df.drop_duplicates(subset=['text'])
+    print(df.shape)
+    dataset = Dataset.from_pandas(df, preserve_index=False)
     dataset = dataset.map(bin_labels)
 
     count = Counter()
@@ -24,7 +31,8 @@ def main():
         shuffle=True,
         seed=1337
     )
-    dataset = dataset.remove_columns(['class_label'])
+    dataset = dataset.remove_columns(['class_label', 'proj_id', 'project_name', 'pdo', 'project_abstract'])
+    dataset = dataset.rename_columns({'Adaptation': 'Climate adaptation', 'Mitigation': 'Climate mitigation'})
     dataset.push_to_hub("devinitorg/wb-climate-percentage")
 
 

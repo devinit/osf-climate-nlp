@@ -1,10 +1,12 @@
-list.of.packages <- c("data.table")
+# Setup ####
+list.of.packages <- c("data.table", "rstudioapi")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
 
-wd = "~/git/osf-climate-nlp/"
+wd <- dirname(getActiveDocumentContext()$path) 
 setwd(wd)
+setwd("../")
 
 mse = function(x, p){return(mean((x-p)^2))}
 
