@@ -11,7 +11,8 @@ setwd("../")
 mse = function(x, p){return(mean((x-p)^2))}
 
 # Climate change model
-dat = fread("output/wb_regression_inference.csv")
+dat = fread("output/wb_api_regression_inference.csv")
+dat$`Climate change` = pmin(dat$`Climate change`, 1)
 
 dat$pred_cap = pmax(dat$pred, 0)
 dat$pred_cap = pmin(dat$pred_cap, 1)
