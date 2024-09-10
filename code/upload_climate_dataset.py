@@ -21,6 +21,9 @@ def main():
     dataset = Dataset.from_pandas(df, preserve_index=False)
     dataset = dataset.map(bin_labels)
 
+    # Remove blanks
+    dataset = dataset.filter(lambda example: example['text'] is not None)
+
     count = Counter()
     count.update(dataset['class_label'])
     print(count)
