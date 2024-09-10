@@ -25,8 +25,17 @@ plot(`Climate change`~pred_cap, data=dat)
 summary(lm(`Climate change`~pred_cap, data=dat))
 
 zero_labels = subset(dat, `Climate change` == 0)
+boxplot(pred_cap~`Climate change`, data=zero_labels)
+nonzero_labels = subset(dat, `Climate change` != 0)
+plot(`Climate change`~pred_cap, data=nonzero_labels)
+abline(0, 1)
 hundred_labels = subset(dat, `Climate change` == 1)
+boxplot(pred_cap~`Climate change`, data=hundred_labels)
 
+dat$binary_cc = (dat$`Climate change` > 0.5) * 1
+dat$binary_pred = (dat$pred_cap > 0.5) * 1
+# 92% accuracy
+mean(dat$binary_cc == dat$binary_pred)
 
 # Climate adaptation and mitigation model
 dat = fread("output/wb_dual_regression_inference.csv")
