@@ -22,7 +22,7 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 dataset = load_dataset('devinitorg/wb-climate-percentage')
 dataset = dataset.rename_column('Climate change', 'label')
 dataset = dataset.remove_columns(
-    ['iati_identifier', 'Climate mitigation', 'Climate adaptation']
+    ['id', 'Climate mitigation', 'Climate adaptation']
 )
 
 def preprocess_function(example):
