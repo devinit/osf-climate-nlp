@@ -10,12 +10,27 @@ setwd("../")
 
 mse = function(x, p){return(mean((x-p)^2))}
 
+
 # Climate change model
 dat = fread("output/wb_api_regression_inference.csv")
 dat$`Climate change` = pmin(dat$`Climate change`, 1)
+plot(dat$`Climate change`[order(dat$`Climate change`)])
+density(dat$`Climate change`)
+plot(density(dat$`Climate change`))
+plot(dat$pred[order(dat$pred)])
+hist(dat$pred)
+plot(density(dat$pred))
+
+par(mfrow=(c(1, 2)))
+
+dat$soft_pred = softmax(dat$pred)
+plot(dat$soft_pred[order(dat$soft_pred)])
+hist(dat$soft_pred)
 
 dat$pred_cap = pmax(dat$pred, 0)
 dat$pred_cap = pmin(dat$pred_cap, 1)
+plot(dat$pred_cap[order(dat$pred_cap)])
+hist(dat$pred_cap)
 
 mse(dat$`Climate change`, mean(dat$`Climate change`))
 mse(dat$`Climate change`, dat$pred)
