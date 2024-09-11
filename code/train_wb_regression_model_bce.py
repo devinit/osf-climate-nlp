@@ -13,6 +13,7 @@ from transformers import (
     Trainer
 )
 import evaluate
+import numpy as np
 
 
 card = 'alex-miller/ODABert'
@@ -33,10 +34,14 @@ def preprocess_function(example):
 
 dataset = dataset.map(preprocess_function, remove_columns=['text', 'label'])
 
+def sigmoid(x):
+   return 1/(1 + np.exp(-x))
+
 metric = evaluate.load('mse')
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
-    mse = metric.compute(predictions=predictions, references=labels)
+    predictions = sigmoid(predictions)
+    mse = metric.compute(predictions=predictions.reshape(-1), references=labels.reshape(-1))
     return mse
 
 model = AutoModelForSequenceClassification.from_pretrained(
@@ -46,8 +51,8 @@ model = AutoModelForSequenceClassification.from_pretrained(
 )
 
 training_args = TrainingArguments(
-    'climate-percentage-regression',
-    learning_rate=8e-7,
+    'climate-percentage-regression-bce',
+    learning_rate=1e-6,
     per_device_train_batch_size=24,
     per_device_eval_batch_size=24,
     num_train_epochs=20,

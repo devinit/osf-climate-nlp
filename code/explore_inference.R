@@ -22,10 +22,9 @@ hist(dat$pred)
 plot(density(dat$pred))
 
 par(mfrow=(c(1, 2)))
-
-dat$soft_pred = softmax(dat$pred)
-plot(dat$soft_pred[order(dat$soft_pred)])
-hist(dat$soft_pred)
+plot(density(dat$`Climate change`))
+plot(density(dat$pred))
+dev.off()
 
 dat$pred_cap = pmax(dat$pred, 0)
 dat$pred_cap = pmin(dat$pred_cap, 1)
