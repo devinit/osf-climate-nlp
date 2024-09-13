@@ -13,6 +13,8 @@ def bin_labels(example):
 
 def main():
     df = pd.read_csv("./input/wb_api_climate_percentages.csv")
+    # Limit to post 2017 for climate accuracy
+    df = df[df['fiscalyear'] >= 2017]
     df['text'] = (df['project_name'] + ' ' + df['pdo'] + ' ' + df['project_abstract']).str.strip()
     # De-duplicate
     print(df.shape)
