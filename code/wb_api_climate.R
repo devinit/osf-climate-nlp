@@ -57,7 +57,7 @@ parse_projects = function(projects, select_sectors){
 
 rows = 500
 
-base_url = "https://search.worldbank.org/api/v3/projects?format=json&fl=id,project_name,project_abstract,pdo,theme_list&apilang=en&rows="
+base_url = "https://search.worldbank.org/api/v3/projects?format=json&fl=id,fiscalyear,project_name,project_abstract,pdo,theme_list&apilang=en&rows="
 
 expected_length = as.numeric(
   fromJSON(
@@ -83,7 +83,7 @@ for(i in 1:expected_pages){
 
 wb_climate = rbindlist(data_list, fill=T)
 wb_climate = wb_climate[,c(
-  "id", "proj_id", "project_name", "pdo", "project_abstract",
+  "id", "proj_id", "fiscalyear", "project_name", "pdo", "project_abstract",
   select_sectors
 ),with=F]
 

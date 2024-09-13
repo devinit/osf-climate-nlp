@@ -10,14 +10,35 @@ setwd("../")
 
 mse = function(x, p){return(mean((x-p)^2))}
 
+sigmoid <- function(x) {
+  1 / (1 + exp(-x))
+}
+
+logit <- function(y) {
+  log(y / (1 - y))
+}
+
+test = data.table(x=seq(-4, 4, length.out=1000))
+test$sig = sigmoid(test$x)
+test$logit = logit(test$sig)
+
+plot(test$sig)
 
 # Climate change model
 dat = fread("output/wb_api_regression_inference.csv")
 dat$`Climate change` = pmin(dat$`Climate change`, 1)
+dat$`Climate change cap` = pmax(dat$`Climate change`, 0.001)
+dat$`Climate change cap` = pmin(dat$`Climate change cap`, 0.999)
+dat$logit = logit(dat$`Climate change cap`)
+plot(dat$logit[order(dat$logit)])
 plot(dat$`Climate change`[order(dat$`Climate change`)])
-density(dat$`Climate change`)
+hist(dat$`Climate change`)
+hist(dat$`Climate change`[which(dat$`Climate change`!=0)])
+plot(density(dat$`Climate change`[which(dat$`Climate change`!=0)]))
 plot(density(dat$`Climate change`))
+
 plot(dat$pred[order(dat$pred)])
+plot(sigmoid(dat$pred)[order(dat$pred)])
 hist(dat$pred)
 plot(density(dat$pred))
 
