@@ -20,46 +20,44 @@ logit <- function(y) {
 
 
 # Climate change model
-dat = fread("output/wb_api_regression_inference_logit.csv")
+dat = fread("output/wb_api_regression_inference.csv")
 dat$`Climate change` = pmin(dat$`Climate change`, 1)
 plot(dat$`Climate change`[order(dat$`Climate change`)])
 hist(dat$`Climate change`)
 plot(density(dat$`Climate change`))
 
-dat$sig_pred = sigmoid(dat$pred)
+plot(dat$pred[order(dat$pred)])
+hist(dat$pred)
+plot(density(dat$pred))
 
-plot(dat$sig_pred[order(dat$sig_pred)])
-hist(dat$sig_pred)
-plot(density(dat$sig_pred))
+dat$pred_cap = pmax(dat$pred, 0)
+dat$pred_cap = pmin(dat$pred_cap, 1)
+plot(dat$pred_cap[order(dat$pred_cap)])
+hist(dat$pred_cap)
+plot(density(dat$pred_cap))
 
 par(mfrow=(c(1, 2)))
 plot(density(dat$`Climate change`))
-plot(density(dat$sig_pred))
+plot(density(dat$pred_cap))
 dev.off()
-# 
-# dat$pred_cap = pmax(dat$pred, 0)
-# dat$pred_cap = pmin(dat$pred_cap, 1)
-# plot(dat$pred_cap[order(dat$pred_cap)])
-# hist(dat$pred_cap)
 
 mse(dat$`Climate change`, mean(dat$`Climate change`))
-mse(dat$`Climate change`, dat$sig_pred)
-# mse(dat$`Climate change`, dat$pred_cap)
-plot(`Climate change`~sig_pred, data=dat)
+mse(dat$`Climate change`, dat$pred_cap)
+plot(`Climate change`~pred_cap, data=dat)
 
-summary(lm(`Climate change`~sig_pred, data=dat))
+summary(lm(`Climate change`~pred_cap, data=dat))
 
 zero_labels = subset(dat, `Climate change` == 0)
-boxplot(sig_pred~`Climate change`, data=zero_labels)
+boxplot(pred_cap~`Climate change`, data=zero_labels)
 nonzero_labels = subset(dat, `Climate change` != 0)
-plot(`Climate change`~sig_pred, data=nonzero_labels)
+plot(`Climate change`~pred_cap, data=nonzero_labels)
 abline(0, 1)
 hundred_labels = subset(dat, `Climate change` == 1)
-boxplot(sig_pred~`Climate change`, data=hundred_labels)
+boxplot(pred_cap~`Climate change`, data=hundred_labels)
 
 dat$binary_cc = (dat$`Climate change` > 0.5) * 1
-dat$binary_pred = (dat$sig_pred > 0.5) * 1
-# 92% accuracy
+dat$binary_pred = (dat$pred_cap > 0.5) * 1
+# 82% accuracy
 mean(dat$binary_cc == dat$binary_pred)
 
 # Climate adaptation and mitigation model
