@@ -29,7 +29,7 @@ def main():
     dataset = dataset.map(map_columns)
     # dataset.to_csv('output/wb_regression_inference.csv')
     # dataset.to_csv('output/wb_dual_regression_inference.csv')
-    dataset.to_csv('output/wb_api_regression_inference.csv')
+    dataset.to_csv('output/wb_api_regression_inference_logit.csv')
 
 
 if __name__ == '__main__':

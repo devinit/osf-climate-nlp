@@ -18,57 +18,47 @@ logit <- function(y) {
   log(y / (1 - y))
 }
 
-test = data.table(x=seq(-4, 4, length.out=1000))
-test$sig = sigmoid(test$x)
-test$logit = logit(test$sig)
-
-plot(test$sig)
 
 # Climate change model
-dat = fread("output/wb_api_regression_inference.csv")
+dat = fread("output/wb_api_regression_inference_logit.csv")
 dat$`Climate change` = pmin(dat$`Climate change`, 1)
-dat$`Climate change cap` = pmax(dat$`Climate change`, 0.001)
-dat$`Climate change cap` = pmin(dat$`Climate change cap`, 0.999)
-dat$logit = logit(dat$`Climate change cap`)
-plot(dat$logit[order(dat$logit)])
 plot(dat$`Climate change`[order(dat$`Climate change`)])
 hist(dat$`Climate change`)
-hist(dat$`Climate change`[which(dat$`Climate change`!=0)])
-plot(density(dat$`Climate change`[which(dat$`Climate change`!=0)]))
 plot(density(dat$`Climate change`))
 
-plot(dat$pred[order(dat$pred)])
-plot(sigmoid(dat$pred)[order(dat$pred)])
-hist(dat$pred)
-plot(density(dat$pred))
+dat$sig_pred = sigmoid(dat$pred)
+
+plot(dat$sig_pred[order(dat$sig_pred)])
+hist(dat$sig_pred)
+plot(density(dat$sig_pred))
 
 par(mfrow=(c(1, 2)))
 plot(density(dat$`Climate change`))
-plot(density(dat$pred))
+plot(density(dat$sig_pred))
 dev.off()
-
-dat$pred_cap = pmax(dat$pred, 0)
-dat$pred_cap = pmin(dat$pred_cap, 1)
-plot(dat$pred_cap[order(dat$pred_cap)])
-hist(dat$pred_cap)
+# 
+# dat$pred_cap = pmax(dat$pred, 0)
+# dat$pred_cap = pmin(dat$pred_cap, 1)
+# plot(dat$pred_cap[order(dat$pred_cap)])
+# hist(dat$pred_cap)
 
 mse(dat$`Climate change`, mean(dat$`Climate change`))
-mse(dat$`Climate change`, dat$pred)
-mse(dat$`Climate change`, dat$pred_cap)
-plot(`Climate change`~pred_cap, data=dat)
+mse(dat$`Climate change`, dat$sig_pred)
+# mse(dat$`Climate change`, dat$pred_cap)
+plot(`Climate change`~sig_pred, data=dat)
 
-summary(lm(`Climate change`~pred_cap, data=dat))
+summary(lm(`Climate change`~sig_pred, data=dat))
 
 zero_labels = subset(dat, `Climate change` == 0)
-boxplot(pred_cap~`Climate change`, data=zero_labels)
+boxplot(sig_pred~`Climate change`, data=zero_labels)
 nonzero_labels = subset(dat, `Climate change` != 0)
-plot(`Climate change`~pred_cap, data=nonzero_labels)
+plot(`Climate change`~sig_pred, data=nonzero_labels)
 abline(0, 1)
 hundred_labels = subset(dat, `Climate change` == 1)
-boxplot(pred_cap~`Climate change`, data=hundred_labels)
+boxplot(sig_pred~`Climate change`, data=hundred_labels)
 
 dat$binary_cc = (dat$`Climate change` > 0.5) * 1
-dat$binary_pred = (dat$pred_cap > 0.5) * 1
+dat$binary_pred = (dat$sig_pred > 0.5) * 1
 # 92% accuracy
 mean(dat$binary_cc == dat$binary_pred)
 
