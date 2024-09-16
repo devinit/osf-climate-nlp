@@ -12,7 +12,6 @@ from transformers import (
     TrainingArguments,
     Trainer
 )
-import evaluate
 
 
 card = 'alex-miller/ODABert'
@@ -26,16 +25,12 @@ dataset = dataset.remove_columns(
 )
 
 def preprocess_function(example):
+    zero_centered_label = example['label'] - 0.5
     example = tokenizer(example['text'], truncation=True)
+    example['label'] = zero_centered_label
     return example
 
 dataset = dataset.map(preprocess_function, remove_columns=['text'])
-
-metric = evaluate.load('mse')
-def compute_metrics(eval_pred):
-    predictions, labels = eval_pred
-    mse = metric.compute(predictions=predictions, references=labels)
-    return mse
 
 model = AutoModelForSequenceClassification.from_pretrained(
     card,
@@ -45,10 +40,10 @@ model = AutoModelForSequenceClassification.from_pretrained(
 
 training_args = TrainingArguments(
     'climate-percentage-regression',
-    learning_rate=8e-7,
+    learning_rate=6e-2,
     per_device_train_batch_size=24,
     per_device_eval_batch_size=24,
-    num_train_epochs=20,
+    num_train_epochs=10,
     weight_decay=0.01,
     eval_strategy='epoch',
     save_strategy='epoch',
@@ -65,7 +60,6 @@ trainer = Trainer(
     eval_dataset=dataset['test'],
     tokenizer=tokenizer,
     data_collator=data_collator,
-    compute_metrics=compute_metrics,
 )
 
 trainer.train()

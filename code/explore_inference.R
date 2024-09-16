@@ -21,6 +21,7 @@ logit <- function(y) {
 
 # Climate change model
 dat = fread("output/wb_api_regression_inference.csv")
+dat$pred = dat$pred + 0.5
 dat$`Climate change` = pmin(dat$`Climate change`, 1)
 plot(dat$`Climate change`[order(dat$`Climate change`)])
 hist(dat$`Climate change`)
@@ -56,9 +57,21 @@ hundred_labels = subset(dat, `Climate change` == 1)
 boxplot(pred_cap~`Climate change`, data=hundred_labels)
 
 dat$binary_cc = (dat$`Climate change` > 0.5) * 1
-dat$binary_pred = (dat$pred_cap > 0.5) * 1
-# 82% accuracy
-mean(dat$binary_cc == dat$binary_pred)
+
+model = glm(
+  binary_cc~pred_cap, data=dat, family="binomial"
+)
+summary(model)
+
+# Extract the null deviance and residual deviance
+null_deviance <- model$null.deviance
+residual_deviance <- model$deviance
+
+# Calculate McFadden's pseudo-R-squared
+pseudo_r2 <- 1 - (residual_deviance / null_deviance)
+
+# Print the result
+cat("Pseudo R-squared:", pseudo_r2, "\n")
 
 # Climate adaptation and mitigation model
 dat = fread("output/wb_dual_regression_inference.csv")
