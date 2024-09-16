@@ -14,6 +14,7 @@ select_sectors = c(
 
 parse_projects = function(projects, select_sectors){
   proj_list = list()
+  proj_index = 1
 
   for(i in 1:length(projects)){
     project = projects[[i]]
@@ -33,6 +34,10 @@ parse_projects = function(projects, select_sectors){
     all_themes = rbindlist(list(
       themes, theme2s, theme3s
     ), fill=T)
+    theme_sum = 0
+    if(nrow(all_themes) > 0){
+      theme_sum = sum(as.numeric(all_themes$percent), na.rm=T)
+    }
     if("name" %in% names(all_themes)){
       all_themes = subset(all_themes, name %in% select_sectors)
     }
@@ -47,7 +52,11 @@ parse_projects = function(projects, select_sectors){
       }
     }
     
-    proj_list[[i]] = proj_dat
+    # Only add if project has any sectors
+    if(theme_sum > 0){
+      proj_list[[proj_index]] = proj_dat
+      proj_index = proj_index + 1
+    }
   }
   
   all_proj_dat = rbindlist(proj_list, fill=T)

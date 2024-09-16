@@ -13,13 +13,30 @@ def bin_labels(example):
 
 def main():
     df = pd.read_csv("./input/wb_api_climate_percentages.csv")
+    starting_rows = df.shape[0]
+    print("Starting rows:", starting_rows)
     # Limit to post 2017 for climate accuracy
     df = df[df['fiscalyear'] >= 2017]
+    print("Rows removed by year filter:", starting_rows - df.shape[0])
     df['text'] = (df['project_name'] + ' ' + df['pdo'] + ' ' + df['project_abstract']).str.strip()
+    # Remove obvious false negatives
+    # Keywords to search for in the 'text' column
+    keywords = ["climate change", "adaptation", "mitigation", "renewable", "natural disaster", "disaster risk"]
+
+    # Create a filter
+    negative_mask = (df['Climate change'] == 0) & df['text'].str.contains('|'.join(keywords), case=False)
+
+    # Apply the filter to the DataFrame
+    prefilter_rows = df.shape[0]
+    df = df[~negative_mask]
+    postfilter_rows = df.shape[0]
+    print("Rows removed by obvious false negative filter:", prefilter_rows - postfilter_rows)
     # De-duplicate
-    print(df.shape)
+    prededup_rows = df.shape[0]
     df = df.drop_duplicates(subset=['text'])
-    print(df.shape)
+    postdedup_rows = df.shape[0]
+    print("Rows removed by de-duplication:", prededup_rows - postdedup_rows)
+    print("Ending rows:", df.shape[0])
     dataset = Dataset.from_pandas(df, preserve_index=False)
     dataset = dataset.map(bin_labels)
 
