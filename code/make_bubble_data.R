@@ -140,7 +140,7 @@ dat$`Mitigation Share` = label_percent(accuracy=1)(dat$`Mitigation Share`)
 dat$`Dual Purpose Share`[which(is.nan(dat$`Dual Purpose Share`))] = NA
 dat$`Dual Purpose Share` = label_percent(accuracy=1)(dat$`Dual Purpose Share`)
 dat$`Total Funding` = round(dat$`Dual Purpose`, 2)
-dat$`Vulnerability` = round(dat$`Vulnerability`, 4)
+dat$`Vulnerability` = round(dat$`Vulnerability` / 100, 4)
 dat$`Funding share of ODA`[which(is.na(dat$`Funding share of ODA`))] = 0
 dat$`Funding share of ODA` = label_percent(accuracy=0.01)(dat$`Funding share of ODA`)
 dat$`Food Insecurity Gap` = label_percent(accuracy=1)(dat$`Food Insecurity Gap`)
