@@ -108,6 +108,7 @@ dat_merge = merge(
 dat_merge = subset(dat_merge, iso3!="")
 
 # Expand into all possible combinations of year and iso3
+countrynames = unique(dat_merge[,c("iso3","countryname","region")])
 dat_grid = expand.grid(
   iso3=unique(dat_merge$iso3),
   year=unique(dat_merge$year)
@@ -119,6 +120,8 @@ dat_merge = merge(
   by=c("iso3", "year"),
   all=T
 )
+dat_merge[,c("countryname", "region")] = NULL
+dat_merge = merge(dat_merge, countrynames, by="iso3", all=T)
 
 # Fill blanks with 0 where applicable
 dat_merge$CCA_USD[which(is.na(dat_merge$CCA_USD))] = 0
@@ -133,6 +136,9 @@ dat_merge$CCM_Share = dat_merge$CCM_USD / dat_merge$Total_ODA_USD
 dat_merge$Dual_Share = dat_merge$Dual_Purpose_USD / dat_merge$Total_ODA_USD
 dat_merge$Total_Climate_Share = dat_merge$Total_Climate_USD / dat_merge$Total_ODA_USD
 dat_merge$Vulnerability_Score = dat_merge$Vulnerability_Score_new
+
+# Save off intermediate wide dataset for bubble data
+fwrite(dat_merge, "input/climate-finance-bubble-intermediate.csv")
 
 # Melt long
 dat_long = melt(

@@ -34,7 +34,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",CCA_Share,percentage_s
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",CCA_Share,percentage_share,31.08%,31.08
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",CCA_Share,percentage_share,8.99%,8.99
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",CCA_Share,percentage_share,0%,0
-,ATG,2022,,,CCA_Share,percentage_share,0%,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",CCA_Share,percentage_share,0.01%,0.01
 Azerbaijan,AZE,2018,Europe & Central Asia,"",CCA_Share,percentage_share,0.01%,0.01
 Azerbaijan,AZE,2019,Europe & Central Asia,"",CCA_Share,percentage_share,0%,0
@@ -114,11 +114,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,CCA_Share,percentage_sh
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,CCA_Share,percentage_share,0.1%,0.1
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,CCA_Share,percentage_share,0.6%,0.6
 Chile,CHL,2017,Latin America & Caribbean,"",CCA_Share,percentage_share,0.55%,0.55
-,CHL,2018,,,CCA_Share,percentage_share,0%,0
-,CHL,2019,,,CCA_Share,percentage_share,0%,0
-,CHL,2020,,,CCA_Share,percentage_share,0%,0
-,CHL,2021,,,CCA_Share,percentage_share,0%,0
-,CHL,2022,,,CCA_Share,percentage_share,0%,0
+Chile,CHL,2018,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Chile,CHL,2019,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Chile,CHL,2020,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Chile,CHL,2021,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Chile,CHL,2022,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",CCA_Share,percentage_share,0.53%,0.53
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",CCA_Share,percentage_share,0.21%,0.21
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",CCA_Share,percentage_share,0.9%,0.9
@@ -152,9 +152,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,CCA_Share,percentage_share,0.03%,0.03
 Cook Islands,COK,2017,East Asia & Pacific,"",CCA_Share,percentage_share,0.15%,0.15
 Cook Islands,COK,2018,East Asia & Pacific,"",CCA_Share,percentage_share,3.92%,3.92
 Cook Islands,COK,2019,East Asia & Pacific,"",CCA_Share,percentage_share,0%,0
-,COK,2020,,,CCA_Share,percentage_share,0%,0
-,COK,2021,,,CCA_Share,percentage_share,0%,0
-,COK,2022,,,CCA_Share,percentage_share,0%,0
+Cook Islands,COK,2020,East Asia & Pacific,,CCA_Share,percentage_share,0%,0
+Cook Islands,COK,2021,East Asia & Pacific,,CCA_Share,percentage_share,0%,0
+Cook Islands,COK,2022,East Asia & Pacific,,CCA_Share,percentage_share,0%,0
 Colombia,COL,2017,Latin America & Caribbean,"",CCA_Share,percentage_share,0.65%,0.65
 Colombia,COL,2018,Latin America & Caribbean,"",CCA_Share,percentage_share,0.25%,0.25
 Colombia,COL,2019,Latin America & Caribbean,"",CCA_Share,percentage_share,0.28%,0.28
@@ -702,11 +702,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",CCA_Share,percentage_share,0.65%,0.65
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",CCA_Share,percentage_share,2.2%,2.2
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",CCA_Share,percentage_share,0.57%,0.57
 Seychelles,SYC,2017,Sub-Saharan Africa,"",CCA_Share,percentage_share,0%,0
-,SYC,2018,,,CCA_Share,percentage_share,0%,0
-,SYC,2019,,,CCA_Share,percentage_share,0%,0
-,SYC,2020,,,CCA_Share,percentage_share,0%,0
-,SYC,2021,,,CCA_Share,percentage_share,0%,0
-,SYC,2022,,,CCA_Share,percentage_share,0%,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,CCA_Share,percentage_share,0%,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,CCA_Share,percentage_share,0%,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,CCA_Share,percentage_share,0%,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,CCA_Share,percentage_share,0%,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,CCA_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,CCA_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,CCA_Share,percentage_share,0.01%,0.01
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,CCA_Share,percentage_share,0%,0
@@ -798,11 +798,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,CCA_Share,percentage_share,0.02%,0.02
 Ukraine,UKR,2021,Europe & Central Asia,yes,CCA_Share,percentage_share,0.04%,0.04
 Ukraine,UKR,2022,Europe & Central Asia,yes,CCA_Share,percentage_share,0.01%,0.01
 Uruguay,URY,2017,Latin America & Caribbean,"",CCA_Share,percentage_share,0.03%,0.03
-,URY,2018,,,CCA_Share,percentage_share,0%,0
-,URY,2019,,,CCA_Share,percentage_share,0%,0
-,URY,2020,,,CCA_Share,percentage_share,0%,0
-,URY,2021,,,CCA_Share,percentage_share,0%,0
-,URY,2022,,,CCA_Share,percentage_share,0%,0
+Uruguay,URY,2018,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Uruguay,URY,2019,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Uruguay,URY,2020,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Uruguay,URY,2021,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
+Uruguay,URY,2022,Latin America & Caribbean,,CCA_Share,percentage_share,0%,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",CCA_Share,percentage_share,0%,0
 Uzbekistan,UZB,2018,Europe & Central Asia,"",CCA_Share,percentage_share,3.1%,3.1
 Uzbekistan,UZB,2019,Europe & Central Asia,"",CCA_Share,percentage_share,1.05%,1.05
@@ -910,7 +910,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",CCA_USD,usd_millions,0
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",CCA_USD,usd_millions,9.322453,9.32
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",CCA_USD,usd_millions,2.391562,2.39
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",CCA_USD,usd_millions,0,0
-,ATG,2022,,,CCA_USD,usd_millions,0,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",CCA_USD,usd_millions,0.012934,0.01
 Azerbaijan,AZE,2018,Europe & Central Asia,"",CCA_USD,usd_millions,0.025335,0.03
 Azerbaijan,AZE,2019,Europe & Central Asia,"",CCA_USD,usd_millions,0,0
@@ -990,11 +990,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,CCA_USD,usd_millions,0.
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,CCA_USD,usd_millions,0.672261,0.67
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,CCA_USD,usd_millions,4.169119,4.17
 Chile,CHL,2017,Latin America & Caribbean,"",CCA_USD,usd_millions,0.662038,0.66
-,CHL,2018,,,CCA_USD,usd_millions,0,0
-,CHL,2019,,,CCA_USD,usd_millions,0,0
-,CHL,2020,,,CCA_USD,usd_millions,0,0
-,CHL,2021,,,CCA_USD,usd_millions,0,0
-,CHL,2022,,,CCA_USD,usd_millions,0,0
+Chile,CHL,2018,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Chile,CHL,2019,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Chile,CHL,2020,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Chile,CHL,2021,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Chile,CHL,2022,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",CCA_USD,usd_millions,7.596026,7.6
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",CCA_USD,usd_millions,3.269977,3.27
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",CCA_USD,usd_millions,13.039228,13.04
@@ -1028,9 +1028,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,CCA_USD,usd_millions,0.196954,0.2
 Cook Islands,COK,2017,East Asia & Pacific,"",CCA_USD,usd_millions,0.038173,0.04
 Cook Islands,COK,2018,East Asia & Pacific,"",CCA_USD,usd_millions,1.42262,1.42
 Cook Islands,COK,2019,East Asia & Pacific,"",CCA_USD,usd_millions,0,0
-,COK,2020,,,CCA_USD,usd_millions,0,0
-,COK,2021,,,CCA_USD,usd_millions,0,0
-,COK,2022,,,CCA_USD,usd_millions,0,0
+Cook Islands,COK,2020,East Asia & Pacific,,CCA_USD,usd_millions,0,0
+Cook Islands,COK,2021,East Asia & Pacific,,CCA_USD,usd_millions,0,0
+Cook Islands,COK,2022,East Asia & Pacific,,CCA_USD,usd_millions,0,0
 Colombia,COL,2017,Latin America & Caribbean,"",CCA_USD,usd_millions,6.788278,6.79
 Colombia,COL,2018,Latin America & Caribbean,"",CCA_USD,usd_millions,4.922789,4.92
 Colombia,COL,2019,Latin America & Caribbean,"",CCA_USD,usd_millions,3.329846,3.33
@@ -1578,11 +1578,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",CCA_USD,usd_millions,0.820337,0.82
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",CCA_USD,usd_millions,3.074129,3.07
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",CCA_USD,usd_millions,0.649605,0.65
 Seychelles,SYC,2017,Sub-Saharan Africa,"",CCA_USD,usd_millions,0,0
-,SYC,2018,,,CCA_USD,usd_millions,0,0
-,SYC,2019,,,CCA_USD,usd_millions,0,0
-,SYC,2020,,,CCA_USD,usd_millions,0,0
-,SYC,2021,,,CCA_USD,usd_millions,0,0
-,SYC,2022,,,CCA_USD,usd_millions,0,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,CCA_USD,usd_millions,0,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,CCA_USD,usd_millions,0,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,CCA_USD,usd_millions,0,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,CCA_USD,usd_millions,0,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,CCA_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,CCA_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,CCA_USD,usd_millions,1.1245,1.12
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,CCA_USD,usd_millions,0,0
@@ -1674,11 +1674,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,CCA_USD,usd_millions,0.405692,0.41
 Ukraine,UKR,2021,Europe & Central Asia,yes,CCA_USD,usd_millions,0.835053,0.84
 Ukraine,UKR,2022,Europe & Central Asia,yes,CCA_USD,usd_millions,2.326218,2.33
 Uruguay,URY,2017,Latin America & Caribbean,"",CCA_USD,usd_millions,0.014787,0.01
-,URY,2018,,,CCA_USD,usd_millions,0,0
-,URY,2019,,,CCA_USD,usd_millions,0,0
-,URY,2020,,,CCA_USD,usd_millions,0,0
-,URY,2021,,,CCA_USD,usd_millions,0,0
-,URY,2022,,,CCA_USD,usd_millions,0,0
+Uruguay,URY,2018,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Uruguay,URY,2019,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Uruguay,URY,2020,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Uruguay,URY,2021,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
+Uruguay,URY,2022,Latin America & Caribbean,,CCA_USD,usd_millions,0,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",CCA_USD,usd_millions,0.022503,0.02
 Uzbekistan,UZB,2018,Europe & Central Asia,"",CCA_USD,usd_millions,34.957219,34.96
 Uzbekistan,UZB,2019,Europe & Central Asia,"",CCA_USD,usd_millions,12.624123,12.62
@@ -1786,7 +1786,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",CCM_Share,percentage_s
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",CCM_Share,percentage_share,1.65%,1.65
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",CCM_Share,percentage_share,1.05%,1.05
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",CCM_Share,percentage_share,0%,0
-,ATG,2022,,,CCM_Share,percentage_share,0%,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",CCM_Share,percentage_share,0%,0
 Azerbaijan,AZE,2018,Europe & Central Asia,"",CCM_Share,percentage_share,0%,0
 Azerbaijan,AZE,2019,Europe & Central Asia,"",CCM_Share,percentage_share,21.49%,21.49
@@ -1866,11 +1866,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,CCM_Share,percentage_sh
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,CCM_Share,percentage_share,0.11%,0.11
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,CCM_Share,percentage_share,0%,0
 Chile,CHL,2017,Latin America & Caribbean,"",CCM_Share,percentage_share,32.75%,32.75
-,CHL,2018,,,CCM_Share,percentage_share,0%,0
-,CHL,2019,,,CCM_Share,percentage_share,0%,0
-,CHL,2020,,,CCM_Share,percentage_share,0%,0
-,CHL,2021,,,CCM_Share,percentage_share,0%,0
-,CHL,2022,,,CCM_Share,percentage_share,0%,0
+Chile,CHL,2018,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Chile,CHL,2019,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Chile,CHL,2020,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Chile,CHL,2021,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Chile,CHL,2022,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",CCM_Share,percentage_share,9.67%,9.67
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",CCM_Share,percentage_share,4.38%,4.38
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",CCM_Share,percentage_share,6.11%,6.11
@@ -1904,9 +1904,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,CCM_Share,percentage_share,0.42%,0.42
 Cook Islands,COK,2017,East Asia & Pacific,"",CCM_Share,percentage_share,10.45%,10.45
 Cook Islands,COK,2018,East Asia & Pacific,"",CCM_Share,percentage_share,1.28%,1.28
 Cook Islands,COK,2019,East Asia & Pacific,"",CCM_Share,percentage_share,0%,0
-,COK,2020,,,CCM_Share,percentage_share,0%,0
-,COK,2021,,,CCM_Share,percentage_share,0%,0
-,COK,2022,,,CCM_Share,percentage_share,0%,0
+Cook Islands,COK,2020,East Asia & Pacific,,CCM_Share,percentage_share,0%,0
+Cook Islands,COK,2021,East Asia & Pacific,,CCM_Share,percentage_share,0%,0
+Cook Islands,COK,2022,East Asia & Pacific,,CCM_Share,percentage_share,0%,0
 Colombia,COL,2017,Latin America & Caribbean,"",CCM_Share,percentage_share,5.17%,5.17
 Colombia,COL,2018,Latin America & Caribbean,"",CCM_Share,percentage_share,2.36%,2.36
 Colombia,COL,2019,Latin America & Caribbean,"",CCM_Share,percentage_share,5.22%,5.22
@@ -2454,11 +2454,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",CCM_Share,percentage_share,0.02%,0.02
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",CCM_Share,percentage_share,0.22%,0.22
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",CCM_Share,percentage_share,0.21%,0.21
 Seychelles,SYC,2017,Sub-Saharan Africa,"",CCM_Share,percentage_share,0.94%,0.94
-,SYC,2018,,,CCM_Share,percentage_share,0%,0
-,SYC,2019,,,CCM_Share,percentage_share,0%,0
-,SYC,2020,,,CCM_Share,percentage_share,0%,0
-,SYC,2021,,,CCM_Share,percentage_share,0%,0
-,SYC,2022,,,CCM_Share,percentage_share,0%,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,CCM_Share,percentage_share,0%,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,CCM_Share,percentage_share,0%,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,CCM_Share,percentage_share,0%,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,CCM_Share,percentage_share,0%,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,CCM_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,CCM_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,CCM_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,CCM_Share,percentage_share,0%,0
@@ -2550,11 +2550,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,CCM_Share,percentage_share,0.67%,0.67
 Ukraine,UKR,2021,Europe & Central Asia,yes,CCM_Share,percentage_share,1.59%,1.59
 Ukraine,UKR,2022,Europe & Central Asia,yes,CCM_Share,percentage_share,0.24%,0.24
 Uruguay,URY,2017,Latin America & Caribbean,"",CCM_Share,percentage_share,0%,0
-,URY,2018,,,CCM_Share,percentage_share,0%,0
-,URY,2019,,,CCM_Share,percentage_share,0%,0
-,URY,2020,,,CCM_Share,percentage_share,0%,0
-,URY,2021,,,CCM_Share,percentage_share,0%,0
-,URY,2022,,,CCM_Share,percentage_share,0%,0
+Uruguay,URY,2018,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Uruguay,URY,2019,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Uruguay,URY,2020,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Uruguay,URY,2021,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
+Uruguay,URY,2022,Latin America & Caribbean,,CCM_Share,percentage_share,0%,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",CCM_Share,percentage_share,27.68%,27.68
 Uzbekistan,UZB,2018,Europe & Central Asia,"",CCM_Share,percentage_share,12.74%,12.74
 Uzbekistan,UZB,2019,Europe & Central Asia,"",CCM_Share,percentage_share,26.01%,26.01
@@ -2662,7 +2662,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",CCM_USD,usd_millions,0
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",CCM_USD,usd_millions,0.496116,0.5
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",CCM_USD,usd_millions,0.278828,0.28
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",CCM_USD,usd_millions,0,0
-,ATG,2022,,,CCM_USD,usd_millions,0,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",CCM_USD,usd_millions,0,0
 Azerbaijan,AZE,2018,Europe & Central Asia,"",CCM_USD,usd_millions,0.004857,0
 Azerbaijan,AZE,2019,Europe & Central Asia,"",CCM_USD,usd_millions,55.09413,55.09
@@ -2742,11 +2742,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,CCM_USD,usd_millions,1.
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,CCM_USD,usd_millions,0.68166,0.68
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,CCM_USD,usd_millions,0,0
 Chile,CHL,2017,Latin America & Caribbean,"",CCM_USD,usd_millions,39.195214,39.2
-,CHL,2018,,,CCM_USD,usd_millions,0,0
-,CHL,2019,,,CCM_USD,usd_millions,0,0
-,CHL,2020,,,CCM_USD,usd_millions,0,0
-,CHL,2021,,,CCM_USD,usd_millions,0,0
-,CHL,2022,,,CCM_USD,usd_millions,0,0
+Chile,CHL,2018,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Chile,CHL,2019,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Chile,CHL,2020,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Chile,CHL,2021,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Chile,CHL,2022,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",CCM_USD,usd_millions,139.654472,139.65
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",CCM_USD,usd_millions,67.773014,67.77
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",CCM_USD,usd_millions,88.441355,88.44
@@ -2780,9 +2780,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,CCM_USD,usd_millions,3.055141,3.06
 Cook Islands,COK,2017,East Asia & Pacific,"",CCM_USD,usd_millions,2.591428,2.59
 Cook Islands,COK,2018,East Asia & Pacific,"",CCM_USD,usd_millions,0.463598,0.46
 Cook Islands,COK,2019,East Asia & Pacific,"",CCM_USD,usd_millions,0,0
-,COK,2020,,,CCM_USD,usd_millions,0,0
-,COK,2021,,,CCM_USD,usd_millions,0,0
-,COK,2022,,,CCM_USD,usd_millions,0,0
+Cook Islands,COK,2020,East Asia & Pacific,,CCM_USD,usd_millions,0,0
+Cook Islands,COK,2021,East Asia & Pacific,,CCM_USD,usd_millions,0,0
+Cook Islands,COK,2022,East Asia & Pacific,,CCM_USD,usd_millions,0,0
 Colombia,COL,2017,Latin America & Caribbean,"",CCM_USD,usd_millions,53.993499,53.99
 Colombia,COL,2018,Latin America & Caribbean,"",CCM_USD,usd_millions,46.528336,46.53
 Colombia,COL,2019,Latin America & Caribbean,"",CCM_USD,usd_millions,62.277905,62.28
@@ -3330,11 +3330,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",CCM_USD,usd_millions,0.031176,0.03
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",CCM_USD,usd_millions,0.304782,0.3
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",CCM_USD,usd_millions,0.241239,0.24
 Seychelles,SYC,2017,Sub-Saharan Africa,"",CCM_USD,usd_millions,0.207102,0.21
-,SYC,2018,,,CCM_USD,usd_millions,0,0
-,SYC,2019,,,CCM_USD,usd_millions,0,0
-,SYC,2020,,,CCM_USD,usd_millions,0,0
-,SYC,2021,,,CCM_USD,usd_millions,0,0
-,SYC,2022,,,CCM_USD,usd_millions,0,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,CCM_USD,usd_millions,0,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,CCM_USD,usd_millions,0,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,CCM_USD,usd_millions,0,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,CCM_USD,usd_millions,0,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,CCM_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,CCM_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,CCM_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,CCM_USD,usd_millions,0,0
@@ -3426,11 +3426,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,CCM_USD,usd_millions,17.22381,17.22
 Ukraine,UKR,2021,Europe & Central Asia,yes,CCM_USD,usd_millions,35.348399,35.35
 Ukraine,UKR,2022,Europe & Central Asia,yes,CCM_USD,usd_millions,68.196811,68.2
 Uruguay,URY,2017,Latin America & Caribbean,"",CCM_USD,usd_millions,0,0
-,URY,2018,,,CCM_USD,usd_millions,0,0
-,URY,2019,,,CCM_USD,usd_millions,0,0
-,URY,2020,,,CCM_USD,usd_millions,0,0
-,URY,2021,,,CCM_USD,usd_millions,0,0
-,URY,2022,,,CCM_USD,usd_millions,0,0
+Uruguay,URY,2018,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Uruguay,URY,2019,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Uruguay,URY,2020,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Uruguay,URY,2021,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
+Uruguay,URY,2022,Latin America & Caribbean,,CCM_USD,usd_millions,0,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",CCM_USD,usd_millions,191.506721,191.51
 Uzbekistan,UZB,2018,Europe & Central Asia,"",CCM_USD,usd_millions,143.65425,143.65
 Uzbekistan,UZB,2019,Europe & Central Asia,"",CCM_USD,usd_millions,312.718707,312.72
@@ -3538,7 +3538,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",Dual_Purpose_USD,usd_m
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,0,0
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,0.482225,0.48
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,0.055365,0.06
-,ATG,2022,,,Dual_Purpose_USD,usd_millions,0,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",Dual_Purpose_USD,usd_millions,0.04404,0.04
 Azerbaijan,AZE,2018,Europe & Central Asia,"",Dual_Purpose_USD,usd_millions,0.002192,0
 Azerbaijan,AZE,2019,Europe & Central Asia,"",Dual_Purpose_USD,usd_millions,0.001667,0
@@ -3618,11 +3618,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,Dual_Purpose_USD,usd_mi
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,Dual_Purpose_USD,usd_millions,0,0
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,Dual_Purpose_USD,usd_millions,0.2605,0.26
 Chile,CHL,2017,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,0,0
-,CHL,2018,,,Dual_Purpose_USD,usd_millions,0,0
-,CHL,2019,,,Dual_Purpose_USD,usd_millions,0,0
-,CHL,2020,,,Dual_Purpose_USD,usd_millions,0,0
-,CHL,2021,,,Dual_Purpose_USD,usd_millions,0,0
-,CHL,2022,,,Dual_Purpose_USD,usd_millions,0,0
+Chile,CHL,2018,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Chile,CHL,2019,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Chile,CHL,2020,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Chile,CHL,2021,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Chile,CHL,2022,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",Dual_Purpose_USD,usd_millions,20.331604,20.33
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",Dual_Purpose_USD,usd_millions,0.641356,0.64
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",Dual_Purpose_USD,usd_millions,9.60242,9.6
@@ -3656,9 +3656,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,Dual_Purpose_USD,usd_millions,0,0
 Cook Islands,COK,2017,East Asia & Pacific,"",Dual_Purpose_USD,usd_millions,0,0
 Cook Islands,COK,2018,East Asia & Pacific,"",Dual_Purpose_USD,usd_millions,0,0
 Cook Islands,COK,2019,East Asia & Pacific,"",Dual_Purpose_USD,usd_millions,0,0
-,COK,2020,,,Dual_Purpose_USD,usd_millions,0,0
-,COK,2021,,,Dual_Purpose_USD,usd_millions,0,0
-,COK,2022,,,Dual_Purpose_USD,usd_millions,0,0
+Cook Islands,COK,2020,East Asia & Pacific,,Dual_Purpose_USD,usd_millions,0,0
+Cook Islands,COK,2021,East Asia & Pacific,,Dual_Purpose_USD,usd_millions,0,0
+Cook Islands,COK,2022,East Asia & Pacific,,Dual_Purpose_USD,usd_millions,0,0
 Colombia,COL,2017,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,19.374827,19.37
 Colombia,COL,2018,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,0.331359,0.33
 Colombia,COL,2019,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,1.138201,1.14
@@ -4206,11 +4206,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",Dual_Purpose_USD,usd_millions,0,0
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",Dual_Purpose_USD,usd_millions,0,0
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",Dual_Purpose_USD,usd_millions,0.740729,0.74
 Seychelles,SYC,2017,Sub-Saharan Africa,"",Dual_Purpose_USD,usd_millions,0.774761,0.77
-,SYC,2018,,,Dual_Purpose_USD,usd_millions,0,0
-,SYC,2019,,,Dual_Purpose_USD,usd_millions,0,0
-,SYC,2020,,,Dual_Purpose_USD,usd_millions,0,0
-,SYC,2021,,,Dual_Purpose_USD,usd_millions,0,0
-,SYC,2022,,,Dual_Purpose_USD,usd_millions,0,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,Dual_Purpose_USD,usd_millions,0,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,Dual_Purpose_USD,usd_millions,0,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,Dual_Purpose_USD,usd_millions,0,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,Dual_Purpose_USD,usd_millions,0,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,Dual_Purpose_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,Dual_Purpose_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,Dual_Purpose_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,Dual_Purpose_USD,usd_millions,0,0
@@ -4302,11 +4302,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,Dual_Purpose_USD,usd_millions,1.63551
 Ukraine,UKR,2021,Europe & Central Asia,yes,Dual_Purpose_USD,usd_millions,1.97042,1.97
 Ukraine,UKR,2022,Europe & Central Asia,yes,Dual_Purpose_USD,usd_millions,2.474815,2.47
 Uruguay,URY,2017,Latin America & Caribbean,"",Dual_Purpose_USD,usd_millions,0,0
-,URY,2018,,,Dual_Purpose_USD,usd_millions,0,0
-,URY,2019,,,Dual_Purpose_USD,usd_millions,0,0
-,URY,2020,,,Dual_Purpose_USD,usd_millions,0,0
-,URY,2021,,,Dual_Purpose_USD,usd_millions,0,0
-,URY,2022,,,Dual_Purpose_USD,usd_millions,0,0
+Uruguay,URY,2018,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Uruguay,URY,2019,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Uruguay,URY,2020,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Uruguay,URY,2021,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
+Uruguay,URY,2022,Latin America & Caribbean,,Dual_Purpose_USD,usd_millions,0,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",Dual_Purpose_USD,usd_millions,0.181018,0.18
 Uzbekistan,UZB,2018,Europe & Central Asia,"",Dual_Purpose_USD,usd_millions,0.160342,0.16
 Uzbekistan,UZB,2019,Europe & Central Asia,"",Dual_Purpose_USD,usd_millions,0.323943,0.32
@@ -4414,7 +4414,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",Dual_Share,percentage_
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",Dual_Share,percentage_share,0%,0
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",Dual_Share,percentage_share,1.81%,1.81
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",Dual_Share,percentage_share,0.97%,0.97
-,ATG,2022,,,Dual_Share,percentage_share,0%,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",Dual_Share,percentage_share,0.02%,0.02
 Azerbaijan,AZE,2018,Europe & Central Asia,"",Dual_Share,percentage_share,0%,0
 Azerbaijan,AZE,2019,Europe & Central Asia,"",Dual_Share,percentage_share,0%,0
@@ -4494,11 +4494,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,Dual_Share,percentage_s
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,Dual_Share,percentage_share,0%,0
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,Dual_Share,percentage_share,0.04%,0.04
 Chile,CHL,2017,Latin America & Caribbean,"",Dual_Share,percentage_share,0%,0
-,CHL,2018,,,Dual_Share,percentage_share,0%,0
-,CHL,2019,,,Dual_Share,percentage_share,0%,0
-,CHL,2020,,,Dual_Share,percentage_share,0%,0
-,CHL,2021,,,Dual_Share,percentage_share,0%,0
-,CHL,2022,,,Dual_Share,percentage_share,0%,0
+Chile,CHL,2018,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Chile,CHL,2019,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Chile,CHL,2020,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Chile,CHL,2021,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Chile,CHL,2022,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",Dual_Share,percentage_share,1.41%,1.41
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",Dual_Share,percentage_share,0.04%,0.04
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",Dual_Share,percentage_share,0.66%,0.66
@@ -4532,9 +4532,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,Dual_Share,percentage_share,0%,0
 Cook Islands,COK,2017,East Asia & Pacific,"",Dual_Share,percentage_share,0%,0
 Cook Islands,COK,2018,East Asia & Pacific,"",Dual_Share,percentage_share,0%,0
 Cook Islands,COK,2019,East Asia & Pacific,"",Dual_Share,percentage_share,0%,0
-,COK,2020,,,Dual_Share,percentage_share,0%,0
-,COK,2021,,,Dual_Share,percentage_share,0%,0
-,COK,2022,,,Dual_Share,percentage_share,0%,0
+Cook Islands,COK,2020,East Asia & Pacific,,Dual_Share,percentage_share,0%,0
+Cook Islands,COK,2021,East Asia & Pacific,,Dual_Share,percentage_share,0%,0
+Cook Islands,COK,2022,East Asia & Pacific,,Dual_Share,percentage_share,0%,0
 Colombia,COL,2017,Latin America & Caribbean,"",Dual_Share,percentage_share,1.85%,1.85
 Colombia,COL,2018,Latin America & Caribbean,"",Dual_Share,percentage_share,0.02%,0.02
 Colombia,COL,2019,Latin America & Caribbean,"",Dual_Share,percentage_share,0.1%,0.1
@@ -5082,11 +5082,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",Dual_Share,percentage_share,0%,0
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",Dual_Share,percentage_share,0%,0
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",Dual_Share,percentage_share,0.65%,0.65
 Seychelles,SYC,2017,Sub-Saharan Africa,"",Dual_Share,percentage_share,3.51%,3.51
-,SYC,2018,,,Dual_Share,percentage_share,0%,0
-,SYC,2019,,,Dual_Share,percentage_share,0%,0
-,SYC,2020,,,Dual_Share,percentage_share,0%,0
-,SYC,2021,,,Dual_Share,percentage_share,0%,0
-,SYC,2022,,,Dual_Share,percentage_share,0%,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,Dual_Share,percentage_share,0%,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,Dual_Share,percentage_share,0%,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,Dual_Share,percentage_share,0%,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,Dual_Share,percentage_share,0%,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,Dual_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,Dual_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,Dual_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,Dual_Share,percentage_share,0%,0
@@ -5178,11 +5178,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,Dual_Share,percentage_share,0.06%,0.0
 Ukraine,UKR,2021,Europe & Central Asia,yes,Dual_Share,percentage_share,0.09%,0.09
 Ukraine,UKR,2022,Europe & Central Asia,yes,Dual_Share,percentage_share,0.01%,0.01
 Uruguay,URY,2017,Latin America & Caribbean,"",Dual_Share,percentage_share,0%,0
-,URY,2018,,,Dual_Share,percentage_share,0%,0
-,URY,2019,,,Dual_Share,percentage_share,0%,0
-,URY,2020,,,Dual_Share,percentage_share,0%,0
-,URY,2021,,,Dual_Share,percentage_share,0%,0
-,URY,2022,,,Dual_Share,percentage_share,0%,0
+Uruguay,URY,2018,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Uruguay,URY,2019,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Uruguay,URY,2020,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Uruguay,URY,2021,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
+Uruguay,URY,2022,Latin America & Caribbean,,Dual_Share,percentage_share,0%,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",Dual_Share,percentage_share,0.03%,0.03
 Uzbekistan,UZB,2018,Europe & Central Asia,"",Dual_Share,percentage_share,0.01%,0.01
 Uzbekistan,UZB,2019,Europe & Central Asia,"",Dual_Share,percentage_share,0.03%,0.03
@@ -5290,7 +5290,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",Total_Climate_Share,pe
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,32.73%,32.73
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,11.85%,11.85
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,0.97%,0.97
-,ATG,2022,,,Total_Climate_Share,percentage_share,0%,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",Total_Climate_Share,percentage_share,0.02%,0.02
 Azerbaijan,AZE,2018,Europe & Central Asia,"",Total_Climate_Share,percentage_share,0.01%,0.01
 Azerbaijan,AZE,2019,Europe & Central Asia,"",Total_Climate_Share,percentage_share,21.5%,21.5
@@ -5370,11 +5370,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,Total_Climate_Share,per
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,Total_Climate_Share,percentage_share,0.21%,0.21
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,Total_Climate_Share,percentage_share,0.64%,0.64
 Chile,CHL,2017,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,33.31%,33.31
-,CHL,2018,,,Total_Climate_Share,percentage_share,0%,0
-,CHL,2019,,,Total_Climate_Share,percentage_share,0%,0
-,CHL,2020,,,Total_Climate_Share,percentage_share,0%,0
-,CHL,2021,,,Total_Climate_Share,percentage_share,0%,0
-,CHL,2022,,,Total_Climate_Share,percentage_share,0%,0
+Chile,CHL,2018,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Chile,CHL,2019,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Chile,CHL,2020,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Chile,CHL,2021,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Chile,CHL,2022,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",Total_Climate_Share,percentage_share,11.6%,11.6
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",Total_Climate_Share,percentage_share,4.63%,4.63
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",Total_Climate_Share,percentage_share,7.68%,7.68
@@ -5408,9 +5408,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,Total_Climate_Share,percentage_share,0.45%
 Cook Islands,COK,2017,East Asia & Pacific,"",Total_Climate_Share,percentage_share,10.6%,10.6
 Cook Islands,COK,2018,East Asia & Pacific,"",Total_Climate_Share,percentage_share,5.2%,5.2
 Cook Islands,COK,2019,East Asia & Pacific,"",Total_Climate_Share,percentage_share,0%,0
-,COK,2020,,,Total_Climate_Share,percentage_share,0%,0
-,COK,2021,,,Total_Climate_Share,percentage_share,0%,0
-,COK,2022,,,Total_Climate_Share,percentage_share,0%,0
+Cook Islands,COK,2020,East Asia & Pacific,,Total_Climate_Share,percentage_share,0%,0
+Cook Islands,COK,2021,East Asia & Pacific,,Total_Climate_Share,percentage_share,0%,0
+Cook Islands,COK,2022,East Asia & Pacific,,Total_Climate_Share,percentage_share,0%,0
 Colombia,COL,2017,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,7.67%,7.67
 Colombia,COL,2018,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,2.63%,2.63
 Colombia,COL,2019,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,5.59%,5.59
@@ -5958,11 +5958,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",Total_Climate_Share,percentage_share,0.6
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",Total_Climate_Share,percentage_share,2.42%,2.42
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",Total_Climate_Share,percentage_share,1.42%,1.42
 Seychelles,SYC,2017,Sub-Saharan Africa,"",Total_Climate_Share,percentage_share,4.44%,4.44
-,SYC,2018,,,Total_Climate_Share,percentage_share,0%,0
-,SYC,2019,,,Total_Climate_Share,percentage_share,0%,0
-,SYC,2020,,,Total_Climate_Share,percentage_share,0%,0
-,SYC,2021,,,Total_Climate_Share,percentage_share,0%,0
-,SYC,2022,,,Total_Climate_Share,percentage_share,0%,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,Total_Climate_Share,percentage_share,0%,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,Total_Climate_Share,percentage_share,0%,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,Total_Climate_Share,percentage_share,0%,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,Total_Climate_Share,percentage_share,0%,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,Total_Climate_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,Total_Climate_Share,percentage_share,0%,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,Total_Climate_Share,percentage_share,0.01%,0.01
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,Total_Climate_Share,percentage_share,0%,0
@@ -6054,11 +6054,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,Total_Climate_Share,percentage_share,
 Ukraine,UKR,2021,Europe & Central Asia,yes,Total_Climate_Share,percentage_share,1.71%,1.71
 Ukraine,UKR,2022,Europe & Central Asia,yes,Total_Climate_Share,percentage_share,0.25%,0.25
 Uruguay,URY,2017,Latin America & Caribbean,"",Total_Climate_Share,percentage_share,0.03%,0.03
-,URY,2018,,,Total_Climate_Share,percentage_share,0%,0
-,URY,2019,,,Total_Climate_Share,percentage_share,0%,0
-,URY,2020,,,Total_Climate_Share,percentage_share,0%,0
-,URY,2021,,,Total_Climate_Share,percentage_share,0%,0
-,URY,2022,,,Total_Climate_Share,percentage_share,0%,0
+Uruguay,URY,2018,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Uruguay,URY,2019,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Uruguay,URY,2020,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Uruguay,URY,2021,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
+Uruguay,URY,2022,Latin America & Caribbean,,Total_Climate_Share,percentage_share,0%,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",Total_Climate_Share,percentage_share,27.71%,27.71
 Uzbekistan,UZB,2018,Europe & Central Asia,"",Total_Climate_Share,percentage_share,15.85%,15.85
 Uzbekistan,UZB,2019,Europe & Central Asia,"",Total_Climate_Share,percentage_share,27.08%,27.08
@@ -6166,7 +6166,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",Total_Climate_USD,usd_
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,9.818569,9.82
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,3.152615,3.15
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,0.055365,0.06
-,ATG,2022,,,Total_Climate_USD,usd_millions,0,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",Total_Climate_USD,usd_millions,0.056974,0.06
 Azerbaijan,AZE,2018,Europe & Central Asia,"",Total_Climate_USD,usd_millions,0.032384,0.03
 Azerbaijan,AZE,2019,Europe & Central Asia,"",Total_Climate_USD,usd_millions,55.095797,55.1
@@ -6246,11 +6246,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,Total_Climate_USD,usd_m
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,Total_Climate_USD,usd_millions,1.353921,1.35
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,Total_Climate_USD,usd_millions,4.429619,4.43
 Chile,CHL,2017,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,39.857252,39.86
-,CHL,2018,,,Total_Climate_USD,usd_millions,0,0
-,CHL,2019,,,Total_Climate_USD,usd_millions,0,0
-,CHL,2020,,,Total_Climate_USD,usd_millions,0,0
-,CHL,2021,,,Total_Climate_USD,usd_millions,0,0
-,CHL,2022,,,Total_Climate_USD,usd_millions,0,0
+Chile,CHL,2018,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Chile,CHL,2019,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Chile,CHL,2020,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Chile,CHL,2021,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Chile,CHL,2022,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",Total_Climate_USD,usd_millions,167.582102,167.58
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",Total_Climate_USD,usd_millions,71.684347,71.68
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",Total_Climate_USD,usd_millions,111.083003,111.08
@@ -6284,9 +6284,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,Total_Climate_USD,usd_millions,3.252095,3.
 Cook Islands,COK,2017,East Asia & Pacific,"",Total_Climate_USD,usd_millions,2.629601,2.63
 Cook Islands,COK,2018,East Asia & Pacific,"",Total_Climate_USD,usd_millions,1.886218,1.89
 Cook Islands,COK,2019,East Asia & Pacific,"",Total_Climate_USD,usd_millions,0,0
-,COK,2020,,,Total_Climate_USD,usd_millions,0,0
-,COK,2021,,,Total_Climate_USD,usd_millions,0,0
-,COK,2022,,,Total_Climate_USD,usd_millions,0,0
+Cook Islands,COK,2020,East Asia & Pacific,,Total_Climate_USD,usd_millions,0,0
+Cook Islands,COK,2021,East Asia & Pacific,,Total_Climate_USD,usd_millions,0,0
+Cook Islands,COK,2022,East Asia & Pacific,,Total_Climate_USD,usd_millions,0,0
 Colombia,COL,2017,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,80.156604,80.16
 Colombia,COL,2018,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,51.782484,51.78
 Colombia,COL,2019,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,66.745952,66.75
@@ -6834,11 +6834,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",Total_Climate_USD,usd_millions,0.851513,
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",Total_Climate_USD,usd_millions,3.378911,3.38
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",Total_Climate_USD,usd_millions,1.631573,1.63
 Seychelles,SYC,2017,Sub-Saharan Africa,"",Total_Climate_USD,usd_millions,0.981863,0.98
-,SYC,2018,,,Total_Climate_USD,usd_millions,0,0
-,SYC,2019,,,Total_Climate_USD,usd_millions,0,0
-,SYC,2020,,,Total_Climate_USD,usd_millions,0,0
-,SYC,2021,,,Total_Climate_USD,usd_millions,0,0
-,SYC,2022,,,Total_Climate_USD,usd_millions,0,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,Total_Climate_USD,usd_millions,0,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,Total_Climate_USD,usd_millions,0,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,Total_Climate_USD,usd_millions,0,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,Total_Climate_USD,usd_millions,0,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,Total_Climate_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,Total_Climate_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,Total_Climate_USD,usd_millions,1.1245,1.12
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,Total_Climate_USD,usd_millions,0,0
@@ -6930,11 +6930,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,Total_Climate_USD,usd_millions,19.265
 Ukraine,UKR,2021,Europe & Central Asia,yes,Total_Climate_USD,usd_millions,38.153872,38.15
 Ukraine,UKR,2022,Europe & Central Asia,yes,Total_Climate_USD,usd_millions,72.997844,73
 Uruguay,URY,2017,Latin America & Caribbean,"",Total_Climate_USD,usd_millions,0.014787,0.01
-,URY,2018,,,Total_Climate_USD,usd_millions,0,0
-,URY,2019,,,Total_Climate_USD,usd_millions,0,0
-,URY,2020,,,Total_Climate_USD,usd_millions,0,0
-,URY,2021,,,Total_Climate_USD,usd_millions,0,0
-,URY,2022,,,Total_Climate_USD,usd_millions,0,0
+Uruguay,URY,2018,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Uruguay,URY,2019,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Uruguay,URY,2020,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Uruguay,URY,2021,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
+Uruguay,URY,2022,Latin America & Caribbean,,Total_Climate_USD,usd_millions,0,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",Total_Climate_USD,usd_millions,191.710242,191.71
 Uzbekistan,UZB,2018,Europe & Central Asia,"",Total_Climate_USD,usd_millions,178.771811,178.77
 Uzbekistan,UZB,2019,Europe & Central Asia,"",Total_Climate_USD,usd_millions,325.666773,325.67
@@ -7042,7 +7042,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",Total_ODA_USD,usd_mill
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,29.994305,29.99
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,26.615326,26.62
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,5.722032,5.72
-,ATG,2022,,,Total_ODA_USD,usd_millions,0,0
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
 Azerbaijan,AZE,2017,Europe & Central Asia,"",Total_ODA_USD,usd_millions,253.170268,253.17
 Azerbaijan,AZE,2018,Europe & Central Asia,"",Total_ODA_USD,usd_millions,225.808131,225.81
 Azerbaijan,AZE,2019,Europe & Central Asia,"",Total_ODA_USD,usd_millions,256.313053,256.31
@@ -7122,11 +7122,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,Total_ODA_USD,usd_milli
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,Total_ODA_USD,usd_millions,647.088221,647.09
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,Total_ODA_USD,usd_millions,691.614933,691.61
 Chile,CHL,2017,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,119.667619,119.67
-,CHL,2018,,,Total_ODA_USD,usd_millions,0,0
-,CHL,2019,,,Total_ODA_USD,usd_millions,0,0
-,CHL,2020,,,Total_ODA_USD,usd_millions,0,0
-,CHL,2021,,,Total_ODA_USD,usd_millions,0,0
-,CHL,2022,,,Total_ODA_USD,usd_millions,0,0
+Chile,CHL,2018,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Chile,CHL,2019,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Chile,CHL,2020,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Chile,CHL,2021,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Chile,CHL,2022,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",Total_ODA_USD,usd_millions,1444.493224,1444.49
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",Total_ODA_USD,usd_millions,1547.491422,1547.49
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",Total_ODA_USD,usd_millions,1446.62334,1446.62
@@ -7160,9 +7160,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,Total_ODA_USD,usd_millions,729.229253,729.
 Cook Islands,COK,2017,East Asia & Pacific,"",Total_ODA_USD,usd_millions,24.803356,24.8
 Cook Islands,COK,2018,East Asia & Pacific,"",Total_ODA_USD,usd_millions,36.255344,36.26
 Cook Islands,COK,2019,East Asia & Pacific,"",Total_ODA_USD,usd_millions,32.793165,32.79
-,COK,2020,,,Total_ODA_USD,usd_millions,0,0
-,COK,2021,,,Total_ODA_USD,usd_millions,0,0
-,COK,2022,,,Total_ODA_USD,usd_millions,0,0
+Cook Islands,COK,2020,East Asia & Pacific,,Total_ODA_USD,usd_millions,0,0
+Cook Islands,COK,2021,East Asia & Pacific,,Total_ODA_USD,usd_millions,0,0
+Cook Islands,COK,2022,East Asia & Pacific,,Total_ODA_USD,usd_millions,0,0
 Colombia,COL,2017,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,1044.553087,1044.55
 Colombia,COL,2018,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,1969.991986,1969.99
 Colombia,COL,2019,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,1192.969388,1192.97
@@ -7710,11 +7710,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",Total_ODA_USD,usd_millions,125.463066,12
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",Total_ODA_USD,usd_millions,139.857846,139.86
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",Total_ODA_USD,usd_millions,114.77654,114.78
 Seychelles,SYC,2017,Sub-Saharan Africa,"",Total_ODA_USD,usd_millions,22.096816,22.1
-,SYC,2018,,,Total_ODA_USD,usd_millions,0,0
-,SYC,2019,,,Total_ODA_USD,usd_millions,0,0
-,SYC,2020,,,Total_ODA_USD,usd_millions,0,0
-,SYC,2021,,,Total_ODA_USD,usd_millions,0,0
-,SYC,2022,,,Total_ODA_USD,usd_millions,0,0
+Seychelles,SYC,2018,Sub-Saharan Africa,,Total_ODA_USD,usd_millions,0,0
+Seychelles,SYC,2019,Sub-Saharan Africa,,Total_ODA_USD,usd_millions,0,0
+Seychelles,SYC,2020,Sub-Saharan Africa,,Total_ODA_USD,usd_millions,0,0
+Seychelles,SYC,2021,Sub-Saharan Africa,,Total_ODA_USD,usd_millions,0,0
+Seychelles,SYC,2022,Sub-Saharan Africa,,Total_ODA_USD,usd_millions,0,0
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,Total_ODA_USD,usd_millions,9647.688679,9647.69
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,Total_ODA_USD,usd_millions,9946.462199,9946.46
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,Total_ODA_USD,usd_millions,10287.527126,10287.53
@@ -7806,11 +7806,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,Total_ODA_USD,usd_millions,2579.57829
 Ukraine,UKR,2021,Europe & Central Asia,yes,Total_ODA_USD,usd_millions,2228.050434,2228.05
 Ukraine,UKR,2022,Europe & Central Asia,yes,Total_ODA_USD,usd_millions,28796.826273,28796.83
 Uruguay,URY,2017,Latin America & Caribbean,"",Total_ODA_USD,usd_millions,49.538075,49.54
-,URY,2018,,,Total_ODA_USD,usd_millions,0,0
-,URY,2019,,,Total_ODA_USD,usd_millions,0,0
-,URY,2020,,,Total_ODA_USD,usd_millions,0,0
-,URY,2021,,,Total_ODA_USD,usd_millions,0,0
-,URY,2022,,,Total_ODA_USD,usd_millions,0,0
+Uruguay,URY,2018,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Uruguay,URY,2019,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Uruguay,URY,2020,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Uruguay,URY,2021,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
+Uruguay,URY,2022,Latin America & Caribbean,,Total_ODA_USD,usd_millions,0,0
 Uzbekistan,UZB,2017,Europe & Central Asia,"",Total_ODA_USD,usd_millions,691.740134,691.74
 Uzbekistan,UZB,2018,Europe & Central Asia,"",Total_ODA_USD,usd_millions,1127.59778,1127.6
 Uzbekistan,UZB,2019,Europe & Central Asia,"",Total_ODA_USD,usd_millions,1202.511417,1202.51
@@ -7918,7 +7918,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",Vulnerability_Score,in
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",Vulnerability_Score,index,50.704549321029,50.7
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",Vulnerability_Score,index,50.938378060456,50.94
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",Vulnerability_Score,index,51.145127222494,51.15
-,ATG,2022,,,Vulnerability_Score,index,,
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,Vulnerability_Score,index,,
 Azerbaijan,AZE,2017,Europe & Central Asia,"",Vulnerability_Score,index,49.2200709756154,49.22
 Azerbaijan,AZE,2018,Europe & Central Asia,"",Vulnerability_Score,index,49.014161336082,49.01
 Azerbaijan,AZE,2019,Europe & Central Asia,"",Vulnerability_Score,index,47.9635640051375,47.96
@@ -7998,11 +7998,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,Vulnerability_Score,ind
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,Vulnerability_Score,index,72.2739586068673,72.27
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,Vulnerability_Score,index,72.1051967992161,72.11
 Chile,CHL,2017,Latin America & Caribbean,"",Vulnerability_Score,index,39.8357724376337,39.84
-,CHL,2018,,,Vulnerability_Score,index,,
-,CHL,2019,,,Vulnerability_Score,index,,
-,CHL,2020,,,Vulnerability_Score,index,,
-,CHL,2021,,,Vulnerability_Score,index,,
-,CHL,2022,,,Vulnerability_Score,index,,
+Chile,CHL,2018,Latin America & Caribbean,,Vulnerability_Score,index,,
+Chile,CHL,2019,Latin America & Caribbean,,Vulnerability_Score,index,,
+Chile,CHL,2020,Latin America & Caribbean,,Vulnerability_Score,index,,
+Chile,CHL,2021,Latin America & Caribbean,,Vulnerability_Score,index,,
+Chile,CHL,2022,Latin America & Caribbean,,Vulnerability_Score,index,,
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",Vulnerability_Score,index,44.8937044296406,44.89
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",Vulnerability_Score,index,44.5727547715132,44.57
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",Vulnerability_Score,index,41.2207447776319,41.22
@@ -8036,9 +8036,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,Vulnerability_Score,index,64.1246342101289
 Cook Islands,COK,2017,East Asia & Pacific,"",Vulnerability_Score,index,,
 Cook Islands,COK,2018,East Asia & Pacific,"",Vulnerability_Score,index,,
 Cook Islands,COK,2019,East Asia & Pacific,"",Vulnerability_Score,index,,
-,COK,2020,,,Vulnerability_Score,index,,
-,COK,2021,,,Vulnerability_Score,index,,
-,COK,2022,,,Vulnerability_Score,index,,
+Cook Islands,COK,2020,East Asia & Pacific,,Vulnerability_Score,index,,
+Cook Islands,COK,2021,East Asia & Pacific,,Vulnerability_Score,index,,
+Cook Islands,COK,2022,East Asia & Pacific,,Vulnerability_Score,index,,
 Colombia,COL,2017,Latin America & Caribbean,"",Vulnerability_Score,index,51.9681492749624,51.97
 Colombia,COL,2018,Latin America & Caribbean,"",Vulnerability_Score,index,52.0651133479631,52.07
 Colombia,COL,2019,Latin America & Caribbean,"",Vulnerability_Score,index,51.6238410241645,51.62
@@ -8586,11 +8586,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",Vulnerability_Score,index,57.01518385515
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",Vulnerability_Score,index,57.7805048329484,57.78
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",Vulnerability_Score,index,57.4415066482064,57.44
 Seychelles,SYC,2017,Sub-Saharan Africa,"",Vulnerability_Score,index,49.3932730938581,49.39
-,SYC,2018,,,Vulnerability_Score,index,,
-,SYC,2019,,,Vulnerability_Score,index,,
-,SYC,2020,,,Vulnerability_Score,index,,
-,SYC,2021,,,Vulnerability_Score,index,,
-,SYC,2022,,,Vulnerability_Score,index,,
+Seychelles,SYC,2018,Sub-Saharan Africa,,Vulnerability_Score,index,,
+Seychelles,SYC,2019,Sub-Saharan Africa,,Vulnerability_Score,index,,
+Seychelles,SYC,2020,Sub-Saharan Africa,,Vulnerability_Score,index,,
+Seychelles,SYC,2021,Sub-Saharan Africa,,Vulnerability_Score,index,,
+Seychelles,SYC,2022,Sub-Saharan Africa,,Vulnerability_Score,index,,
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,Vulnerability_Score,index,61.6825255242865,61.68
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,Vulnerability_Score,index,61.6072184392493,61.61
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,Vulnerability_Score,index,61.5620114965582,61.56
@@ -8682,11 +8682,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,Vulnerability_Score,index,46.64071264
 Ukraine,UKR,2021,Europe & Central Asia,yes,Vulnerability_Score,index,46.7479477985849,46.75
 Ukraine,UKR,2022,Europe & Central Asia,yes,Vulnerability_Score,index,47.6604288983574,47.66
 Uruguay,URY,2017,Latin America & Caribbean,"",Vulnerability_Score,index,46.4082997338519,46.41
-,URY,2018,,,Vulnerability_Score,index,,
-,URY,2019,,,Vulnerability_Score,index,,
-,URY,2020,,,Vulnerability_Score,index,,
-,URY,2021,,,Vulnerability_Score,index,,
-,URY,2022,,,Vulnerability_Score,index,,
+Uruguay,URY,2018,Latin America & Caribbean,,Vulnerability_Score,index,,
+Uruguay,URY,2019,Latin America & Caribbean,,Vulnerability_Score,index,,
+Uruguay,URY,2020,Latin America & Caribbean,,Vulnerability_Score,index,,
+Uruguay,URY,2021,Latin America & Caribbean,,Vulnerability_Score,index,,
+Uruguay,URY,2022,Latin America & Caribbean,,Vulnerability_Score,index,,
 Uzbekistan,UZB,2017,Europe & Central Asia,"",Vulnerability_Score,index,50.4101658701932,50.41
 Uzbekistan,UZB,2018,Europe & Central Asia,"",Vulnerability_Score,index,48.5618730133404,48.56
 Uzbekistan,UZB,2019,Europe & Central Asia,"",Vulnerability_Score,index,48.1456270328691,48.15
@@ -8794,7 +8794,7 @@ Antigua and Barbuda,ATG,2018,Latin America & Caribbean,"",Vulnerability_Score_ne
 Antigua and Barbuda,ATG,2019,Latin America & Caribbean,"",Vulnerability_Score_new,index,50.704549321029,50.7
 Antigua and Barbuda,ATG,2020,Latin America & Caribbean,"",Vulnerability_Score_new,index,50.938378060456,50.94
 Antigua and Barbuda,ATG,2021,Latin America & Caribbean,"",Vulnerability_Score_new,index,51.145127222494,51.15
-,ATG,2022,,,Vulnerability_Score_new,index,,
+Antigua and Barbuda,ATG,2022,Latin America & Caribbean,,Vulnerability_Score_new,index,,
 Azerbaijan,AZE,2017,Europe & Central Asia,"",Vulnerability_Score_new,index,49.2200709756154,49.22
 Azerbaijan,AZE,2018,Europe & Central Asia,"",Vulnerability_Score_new,index,49.014161336082,49.01
 Azerbaijan,AZE,2019,Europe & Central Asia,"",Vulnerability_Score_new,index,47.9635640051375,47.96
@@ -8874,11 +8874,11 @@ Central African Republic,CAF,2020,Sub-Saharan Africa,yes,Vulnerability_Score_new
 Central African Republic,CAF,2021,Sub-Saharan Africa,yes,Vulnerability_Score_new,index,72.2739586068673,72.27
 Central African Republic,CAF,2022,Sub-Saharan Africa,yes,Vulnerability_Score_new,index,72.1051967992161,72.11
 Chile,CHL,2017,Latin America & Caribbean,"",Vulnerability_Score_new,index,39.8357724376337,39.84
-,CHL,2018,,,Vulnerability_Score_new,index,,
-,CHL,2019,,,Vulnerability_Score_new,index,,
-,CHL,2020,,,Vulnerability_Score_new,index,,
-,CHL,2021,,,Vulnerability_Score_new,index,,
-,CHL,2022,,,Vulnerability_Score_new,index,,
+Chile,CHL,2018,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Chile,CHL,2019,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Chile,CHL,2020,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Chile,CHL,2021,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Chile,CHL,2022,Latin America & Caribbean,,Vulnerability_Score_new,index,,
 China (People's Republic of),CHN,2017,East Asia & Pacific,"",Vulnerability_Score_new,index,44.8937044296406,44.89
 China (People's Republic of),CHN,2018,East Asia & Pacific,"",Vulnerability_Score_new,index,44.5727547715132,44.57
 China (People's Republic of),CHN,2019,East Asia & Pacific,"",Vulnerability_Score_new,index,41.2207447776319,41.22
@@ -8912,9 +8912,9 @@ Congo,COG,2022,Sub-Saharan Africa,yes,Vulnerability_Score_new,index,64.124634210
 Cook Islands,COK,2017,East Asia & Pacific,"",Vulnerability_Score_new,index,,
 Cook Islands,COK,2018,East Asia & Pacific,"",Vulnerability_Score_new,index,,
 Cook Islands,COK,2019,East Asia & Pacific,"",Vulnerability_Score_new,index,,
-,COK,2020,,,Vulnerability_Score_new,index,,
-,COK,2021,,,Vulnerability_Score_new,index,,
-,COK,2022,,,Vulnerability_Score_new,index,,
+Cook Islands,COK,2020,East Asia & Pacific,,Vulnerability_Score_new,index,,
+Cook Islands,COK,2021,East Asia & Pacific,,Vulnerability_Score_new,index,,
+Cook Islands,COK,2022,East Asia & Pacific,,Vulnerability_Score_new,index,,
 Colombia,COL,2017,Latin America & Caribbean,"",Vulnerability_Score_new,index,51.9681492749624,51.97
 Colombia,COL,2018,Latin America & Caribbean,"",Vulnerability_Score_new,index,52.0651133479631,52.07
 Colombia,COL,2019,Latin America & Caribbean,"",Vulnerability_Score_new,index,51.6238410241645,51.62
@@ -9462,11 +9462,11 @@ Eswatini,SWZ,2020,Sub-Saharan Africa,"",Vulnerability_Score_new,index,57.0151838
 Eswatini,SWZ,2021,Sub-Saharan Africa,"",Vulnerability_Score_new,index,57.7805048329484,57.78
 Eswatini,SWZ,2022,Sub-Saharan Africa,"",Vulnerability_Score_new,index,57.4415066482064,57.44
 Seychelles,SYC,2017,Sub-Saharan Africa,"",Vulnerability_Score_new,index,49.3932730938581,49.39
-,SYC,2018,,,Vulnerability_Score_new,index,,
-,SYC,2019,,,Vulnerability_Score_new,index,,
-,SYC,2020,,,Vulnerability_Score_new,index,,
-,SYC,2021,,,Vulnerability_Score_new,index,,
-,SYC,2022,,,Vulnerability_Score_new,index,,
+Seychelles,SYC,2018,Sub-Saharan Africa,,Vulnerability_Score_new,index,,
+Seychelles,SYC,2019,Sub-Saharan Africa,,Vulnerability_Score_new,index,,
+Seychelles,SYC,2020,Sub-Saharan Africa,,Vulnerability_Score_new,index,,
+Seychelles,SYC,2021,Sub-Saharan Africa,,Vulnerability_Score_new,index,,
+Seychelles,SYC,2022,Sub-Saharan Africa,,Vulnerability_Score_new,index,,
 Syrian Arab Republic,SYR,2017,Middle East & North Africa,yes,Vulnerability_Score_new,index,61.6825255242865,61.68
 Syrian Arab Republic,SYR,2018,Middle East & North Africa,yes,Vulnerability_Score_new,index,61.6072184392493,61.61
 Syrian Arab Republic,SYR,2019,Middle East & North Africa,yes,Vulnerability_Score_new,index,61.5620114965582,61.56
@@ -9558,11 +9558,11 @@ Ukraine,UKR,2020,Europe & Central Asia,yes,Vulnerability_Score_new,index,46.6407
 Ukraine,UKR,2021,Europe & Central Asia,yes,Vulnerability_Score_new,index,46.7479477985849,46.75
 Ukraine,UKR,2022,Europe & Central Asia,yes,Vulnerability_Score_new,index,47.6604288983574,47.66
 Uruguay,URY,2017,Latin America & Caribbean,"",Vulnerability_Score_new,index,46.4082997338519,46.41
-,URY,2018,,,Vulnerability_Score_new,index,,
-,URY,2019,,,Vulnerability_Score_new,index,,
-,URY,2020,,,Vulnerability_Score_new,index,,
-,URY,2021,,,Vulnerability_Score_new,index,,
-,URY,2022,,,Vulnerability_Score_new,index,,
+Uruguay,URY,2018,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Uruguay,URY,2019,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Uruguay,URY,2020,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Uruguay,URY,2021,Latin America & Caribbean,,Vulnerability_Score_new,index,,
+Uruguay,URY,2022,Latin America & Caribbean,,Vulnerability_Score_new,index,,
 Uzbekistan,UZB,2017,Europe & Central Asia,"",Vulnerability_Score_new,index,50.4101658701932,50.41
 Uzbekistan,UZB,2018,Europe & Central Asia,"",Vulnerability_Score_new,index,48.5618730133404,48.56
 Uzbekistan,UZB,2019,Europe & Central Asia,"",Vulnerability_Score_new,index,48.1456270328691,48.15
