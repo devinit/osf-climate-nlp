@@ -1,0 +1,12 @@
+variable,unit
+CCA_Share,percentage_share
+CCA_USD,usd_millions
+CCM_Share,percentage_share
+CCM_USD,usd_millions
+Dual_Purpose_USD,usd_millions
+Dual_Share,percentage_share
+Total_Climate_Share,percentage_share
+Total_Climate_USD,usd_millions
+Total_ODA_USD,usd_millions
+Vulnerability_Score,index
+Vulnerability_Score_new,index
