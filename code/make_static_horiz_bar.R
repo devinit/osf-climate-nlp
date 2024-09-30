@@ -78,7 +78,7 @@ p = ggplot(data, aes(x = country, y = value, fill = category)) +
   ) + guides(fill = guide_legend(reverse=T))
 p
 ggsave(
-  "output/Figure_6_Adaptation_and_mitigation_ODA_in_protracted_crisis_countries_2021.png",
+  "output/Figure_6_Adaptation_and_mitigation_ODA_in_protracted_crisis_countries_2022.png",
   p,
   units="px",
   width=2800,
