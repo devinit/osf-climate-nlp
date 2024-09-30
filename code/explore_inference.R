@@ -21,6 +21,11 @@ logit <- function(y) {
 
 # Climate change model
 dat = fread("output/wb_api_regression_inference.csv")
+dat$rail = grepl("\\brail\\b|\\brailway\\b|\\brails\\b|\\brailways\\b", dat$text, ignore.case=T, perl=T)
+rail = subset(dat, rail)
+nonrail = subset(dat, !rail)
+mean(rail$`Climate mitigation`)
+mean(nonrail$`Climate mitigation`)
 dat$pred = dat$pred + 0.5
 dat$`Climate change` = pmin(dat$`Climate change`, 1)
 plot(dat$`Climate change`[order(dat$`Climate change`)])
