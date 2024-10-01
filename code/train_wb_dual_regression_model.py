@@ -38,7 +38,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
 
 training_args = TrainingArguments(
     'climate-dual-percentage-regression',
-    learning_rate=6e-2,
+    learning_rate=2e-6,
     per_device_train_batch_size=24,
     per_device_eval_batch_size=24,
     num_train_epochs=10,
