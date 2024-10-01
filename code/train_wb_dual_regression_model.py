@@ -23,7 +23,7 @@ dataset = dataset.remove_columns(
 )
 
 def preprocess_function(example):
-    labels = [example['Climate adaptation'], example['Climate mitigation']]
+    labels = [example['Climate adaptation'] - 0.5, example['Climate mitigation'] - 0.5]
     example = tokenizer(example['text'], truncation=True)
     example['labels'] = labels
     return example
@@ -38,7 +38,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
 
 training_args = TrainingArguments(
     'climate-dual-percentage-regression',
-    learning_rate=8e-7,
+    learning_rate=6e-2,
     per_device_train_batch_size=24,
     per_device_eval_batch_size=24,
     num_train_epochs=10,
