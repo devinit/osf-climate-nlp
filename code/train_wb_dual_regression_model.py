@@ -23,7 +23,7 @@ dataset = dataset.remove_columns(
 )
 
 def preprocess_function(example):
-    labels = [example['Climate adaptation'] - 0.5, example['Climate mitigation'] - 0.5]
+    labels = [example['Climate adaptation'], example['Climate mitigation']]
     example = tokenizer(example['text'], truncation=True)
     example['labels'] = labels
     return example
@@ -41,7 +41,7 @@ training_args = TrainingArguments(
     learning_rate=2e-6,
     per_device_train_batch_size=24,
     per_device_eval_batch_size=24,
-    num_train_epochs=10,
+    num_train_epochs=20,
     weight_decay=0.01,
     eval_strategy='epoch',
     save_strategy='epoch',
