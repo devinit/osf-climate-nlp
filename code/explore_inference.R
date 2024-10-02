@@ -97,3 +97,8 @@ summary(lm(pred_cap~pred_sum, data=merge_dat))
 mse(merge_dat$pred_cap, merge_dat$pred_sum)
 mse(merge_dat$`Climate change`, merge_dat$pred_cap)
 mse(merge_dat$`Climate change`, merge_dat$pred_sum)
+merge_dat$between_models_error = merge_dat$pred_sum - merge_dat$pred_cap
+Hmisc::describe(merge_dat$between_models_error)
+merge_dat$between_reality_error = merge_dat$`Climate change` - merge_dat$pred_cap
+plot(between_reality_error~between_models_error, data=merge_dat)
+summary(lm(between_reality_error~between_models_error, data=merge_dat))
