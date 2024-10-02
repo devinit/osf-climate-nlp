@@ -61,24 +61,8 @@ abline(0, 1)
 hundred_labels = subset(dat, `Climate change` == 1)
 boxplot(pred_cap~`Climate change`, data=hundred_labels)
 
-dat$binary_cc = (dat$`Climate change` > 0.5) * 1
-
-model = glm(
-  binary_cc~pred_cap, data=dat, family="binomial"
-)
-summary(model)
-
-# Extract the null deviance and residual deviance
-null_deviance <- model$null.deviance
-residual_deviance <- model$deviance
-
-# Calculate McFadden's pseudo-R-squared
-pseudo_r2 <- 1 - (residual_deviance / null_deviance)
-
-# Print the result
-cat("Pseudo R-squared:", pseudo_r2, "\n")
-
 # Climate adaptation and mitigation model
+c_dat = dat
 dat = fread("output/wb_dual_regression_inference.csv")
 
 dat$pred_a_cap = pmax(dat$pred_a, 0)
@@ -100,3 +84,16 @@ mse(dat$`Climate mitigation`, dat$pred_m_cap)
 plot(`Climate mitigation`~pred_m_cap, data=dat)
 
 summary(lm(`Climate mitigation`~pred_m_cap, data=dat))
+
+# Check concurrance between models
+dat$pred_sum = dat$pred_a_cap + dat$pred_m_cap
+dat$pred_sum = pmax(dat$pred_sum, 0)
+dat$pred_sum = pmin(dat$pred_sum, 1)
+c_dat = c_dat[,c("id", "pred_cap")]
+
+merge_dat = merge(dat, c_dat, by="id")
+plot(pred_cap~pred_sum, data=merge_dat)
+summary(lm(pred_cap~pred_sum, data=merge_dat))
+mse(merge_dat$pred_cap, merge_dat$pred_sum)
+mse(merge_dat$`Climate change`, merge_dat$pred_cap)
+mse(merge_dat$`Climate change`, merge_dat$pred_sum)
